@@ -1,34 +1,57 @@
+:root {
+  --gradientColorZero: #a960ee;
+  --gradientColorOne: #ff333d;
+  --gradientColorTwo: #90e0ff;
+  --gradientColorThree: #ffcb57;
+  --gradientColorZeroTransparent: rgba(169, 96, 238, 0);
+  --gradientColorOneTransparent: rgba(255, 51, 61, 0);
+  --gradientColorTwoTransparent: rgba(144, 224, 255, 0);
+  --gradientColorThreeTransparent: rgba(255, 203, 87, 0);
+  --gradientAngle: var(--angleStrong);
+  --gradientHeight: calc(100% + var(--sectionPaddingTop) + var(--transformOriginX)* var(--sectionAngleSin));
+  --offsetX: var(--gutterWidth); }
+
 body {
   font-family: Poppins, Arial;
   /* background-color: black; */
-  color: white;
-  
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
-.pusher{
-  position: absolute;
-  background: rgb(203,35,55);
-  background: linear-gradient(90deg, rgba(203,35,55,1) 0%, rgba(108,9,121,1) 50%, rgba(0,212,255,1) 100%);
-  min-height: 100px;
-  border: solid 1px blue;
+.stripe-logo {
+  width: 50px;
+  z-index: 1;
+  color: white;
 }
-.hero{
+
+.nav-bar:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #a960ee, #ff333d, #90e0ff, #ffcb57) ;
+  border-radius: 0 0 100% 0%;
+  transform: scaleX(1.1);
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
   position: relative;
   z-index: 1;
+  margin: 0 auto;
+  /* max-width: 900px; */
   display: flex;
-  justify-content: center;
-  min-height: 600px;
+  justify-content:center;
+  text-align: center;
+  color: white;
 }
 
-.curve{
-  /* position: relative;
-  display: block;
-  z-index: 2; */
-  /* width: inherit; */
-  /* height: 100%; */
-  min-height: 300px;
-
-}
 .nav-links {
   position: absolute;
   display: flex;
@@ -39,7 +62,7 @@ body {
   padding: 20px;
 }
 
-.custom-shape-divider-top-1731505062 {
+/* .custom-shape-divider-top-1731505062 {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,7 +81,7 @@ body {
 
 .custom-shape-divider-top-1731505062 .shape-fill {
   fill: url(#myGradient);
-}
+} */
 
 
 
@@ -93,3 +116,4 @@ body {
 .sign-button:active {
   padding: 10px 20px;
 }
+

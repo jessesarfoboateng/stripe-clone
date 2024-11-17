@@ -127,6 +127,7 @@ body {
   border-radius: 17px;
   cursor: pointer;
   transition: opacity 0.5s;
+  width: 285px;
 }
 
 .financial-topic {
@@ -135,6 +136,7 @@ body {
   font-weight: Bold;
   line-height: 96px;
   letter-spacing: -3.72px;
+  margin: 40px 0px;
 }
 
 .financial-description {
@@ -164,19 +166,40 @@ body {
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  width: 130px;
 }
 
 .start-button ::placeholder {
   color: black;
 }
 
-/* .left-description {
+.left-description {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 400px;
-} */
+}
 
+.phone-design {
+  position: absolute;
+  right: 705px;
+  top: 640px;
+  width: 200px;
+  z-index: 1;
+  border-radius: 35px;
+  
+}
+
+.big-screen-design {
+  width: 800px;
+  position: absolute;
+  right: 15px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 35px;
+}
+
+.bio-grid {
+  position: absolute;
+}
 
 
 

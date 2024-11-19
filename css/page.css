@@ -177,14 +177,18 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
+  position: absolute;
+  left: 80px;
+  margin-top: -300px;
+  z-index: 100;
 }
 
 .phone-design {
   position: absolute;
-  right: 705px;
-  top: 640px;
+  right: 505px;
+  top: 330px;
   width: 200px;
-  z-index: 1;
+  z-index: 101;
   border-radius: 35px;
   
 }
@@ -192,14 +196,14 @@ body {
 .big-screen-design {
   width: 800px;
   position: absolute;
-  right: 15px;
+  top: 210px;
+  right: -145px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
   border-radius: 35px;
+  z-index: 100;
 }
 
-.bio-grid {
-  position: absolute;
-}
+
 
 
 

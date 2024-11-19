@@ -135,7 +135,7 @@ body {
   width: 619.2px;
   font-size: 82px;
   font-weight: Bold;
-  line-height: 96px;
+  line-height: 83px;
   letter-spacing: -3.72px;
   margin: 40px 0px;
 }
@@ -145,13 +145,15 @@ body {
   width: 529.2px;
   line-height: 28px;
   letter-spacing: 0.2px;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 .email-space {
   padding: 16px 18px;
   width: 384px;
   border-radius: 25px;
-  background-color: rgb(218, 216, 216);
+  background-color: rgb(234, 233, 243);
   border: none;
 }
 
@@ -160,6 +162,10 @@ body {
   border-color: blue;
   /* outline: none; */
 }
+/* 
+input[type="email"] , input[type="email"]:focus {
+  font-family: Poppins, Arial;
+} */
 
 .start-button {
   background-color: #0A2540;
@@ -182,15 +188,15 @@ body {
   flex-direction: column;
   width: 400px;
   position: absolute;
-  left: 80px;
+  left: 180px;
   margin-top: -310px;
   z-index: 100;
 }
 
 .phone-design {
   position: absolute;
-  right: 505px;
-  top: 330px;
+  right: 355px;
+  top: 370px;
   width: 200px;
   z-index: 101;
   border-radius: 35px;
@@ -201,7 +207,7 @@ body {
   width: 800px;
   position: absolute;
   top: 210px;
-  right: -145px;
+  right: -350px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
   border-radius: 35px;
   z-index: 100;

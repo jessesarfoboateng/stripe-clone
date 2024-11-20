@@ -89,6 +89,7 @@
   z-index: 1; /* Ensures the shape is above the video */
 
 .user-rate {
+  color: white;
   font-size: 24px;
   font-weight: Bold;
   letter-spacing: 0.1px;
@@ -103,15 +104,15 @@
   letter-spacing: 0.2px;
   line-height: 24px;
   width: 270px;
+  padding-left: 16px;
 }
 
 .second-text {
   cursor: pointer;
   color: rgb(0, 212, 255);
-  transition: color 0.3s;
 }
 
-.second-text {
+.second-text:hover {
   color: white;
 }
 

@@ -71,6 +71,7 @@
   width: 100%;
   height: 700px; /* Match the height of the SVG */
   overflow: hidden;
+  z-index: -2;
 }
 
 .bg-video {
@@ -86,6 +87,6 @@
 /* .custom-shape-divider-top-1732111951 {
   position: relative;
   z-index: 1; /* Ensures the shape is above the video */
-} */
+*/
 
 

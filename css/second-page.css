@@ -116,5 +116,31 @@
   color: white;
 }
 
+.maersk-logo {
+  width: 400px;
+  padding: 145px 145px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: width 0.3s, background-color 0.3s;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.maersk-logo:hover {
+  width: 430px;
+  background-color: rgb(236, 255, 154);
+}
+
+.partnerships-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.partnership-logo {
+  width: 80px;
+  cursor: pointer;
+}
+
 
 

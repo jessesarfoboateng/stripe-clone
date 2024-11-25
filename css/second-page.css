@@ -142,5 +142,27 @@
   cursor: pointer;
 }
 
+.services-procedure {
+  width: 450px;
+  height: 300px;
+  border-bottom: solid 0.5px  rgb(230, 227, 227);
+  display: inline-block;
+}
+
+.procedure-grid {
+  width: 451px;
+  padding: 3px;
+  box-shadow: -1px 10px 10px rgba(167, 165, 165, 0.8);
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.procedure-flex {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
 
 

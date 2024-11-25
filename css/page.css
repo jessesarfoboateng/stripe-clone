@@ -121,6 +121,10 @@ body {
   background-color: white;
 }
 
+.sign-button:active {
+  background-color: blue;
+}
+
 .suggestion {
   color: white;
   font-size: 13px;

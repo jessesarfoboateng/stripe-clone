@@ -151,7 +151,7 @@
 
 .procedure-grid {
   width: 451px;
-  padding: 3px;
+  padding: 0px 3px;
   box-shadow: -1px 7px 5px rgba(202, 200, 200, 0.8);
   border-radius: 4px;
   margin-left: 30px;
@@ -161,7 +161,7 @@
 .procedure-flex {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 10px;
 }
 
 

@@ -121,13 +121,7 @@
   padding: 145px 145px;
   border-radius: 50px;
   cursor: pointer;
-  transition: width 0.3s, background-color 0.3s;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.maersk-logo:hover {
-  width: 430px;
-  background-color: rgb(236, 255, 154);
 }
 
 .partnerships-layout {
@@ -184,8 +178,56 @@
 
 .nodejs-picture {
   width: 540px;
-  margin-top: 190px;
+  margin-top: 15px;
   border-radius: 8px;
+}
+
+.icon6 {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.user-rate2 {
+  color: white;
+  font-size: 15px;
+  font-weight: Bold;
+  letter-spacing: 0.1px;
+  width: 222px;
+  border-left: solid 2px rgb(0, 212, 255);
+  padding-left: 16px;
+}
+
+.link-text {
+  color: rgb(0, 212, 255);
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.3s;
+  margin-left: 15px;
+  font-weight: Bold;
+}
+
+.link-text:hover {
+  color: white;
+}
+
+.custom-shape-divider-top-1732722153 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1732722153 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1732722153 .shape-fill {
+  fill: rgb(10, 37, 64);
 }
 
 

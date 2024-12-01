@@ -32,6 +32,12 @@ body {
   margin-right: 30px;
 }
 
+.stripelastlogo {
+  width: 50px;
+  color: black;
+  cursor: pointer;
+}
+
 /* .nav-bar:before {
   content: '';
   position: absolute;

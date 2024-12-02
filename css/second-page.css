@@ -230,10 +230,23 @@
   fill: rgb(10, 37, 64);
 }
 
+/* 
 .faqs {
   font-size: 15px;
-  width: 151px;
   color: rgb(10, 37, 64);
+  cursor: pointer;
+  transition: color 0.2s;
+  margin-bottom: -2.5px;
 }
+
+.faqs:hover {
+  color: gray;
+}
+
+.faqs-title {
+  font-size: 15px;
+  color: rgb(10, 37, 64);
+  font-weight: Bold;
+} */
 
 

@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --buttonColor: rgb(99, 91, 255);
   --gradientColorZero: #a960ee;
   --gradientColorOne: #ff333d;
@@ -10,7 +10,7 @@
   --gradientColorThreeTransparent: rgba(255, 203, 87, 0);
   --gradientAngle: var(--angleStrong);
   --gradientHeight: calc(100% + var(--sectionPaddingTop) + var(--transformOriginX)* var(--sectionAngleSin));
-  --offsetX: var(--gutterWidth); } */
+  --offsetX: var(--gutterWidth); }
 
 body {
   font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;

@@ -84,9 +84,6 @@
   z-index: -1; /* Places the video behind the content */
 }
 
-/* .custom-shape-divider-top-1732111951 {
-  position: relative;
-  z-index: 1; /* Ensures the shape is above the video */
 
 .user-rate {
   color: white;
@@ -230,23 +227,5 @@
   fill: rgb(10, 37, 64);
 }
 
-/* 
-.faqs {
-  font-size: 15px;
-  color: rgb(10, 37, 64);
-  cursor: pointer;
-  transition: color 0.2s;
-  margin-bottom: -2.5px;
-}
-
-.faqs:hover {
-  color: gray;
-}
-
-.faqs-title {
-  font-size: 15px;
-  color: rgb(10, 37, 64);
-  font-weight: Bold;
-} */
 
 
